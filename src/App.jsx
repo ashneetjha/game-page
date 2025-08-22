@@ -12,10 +12,6 @@ function App() {
   return (
     <>
       <Draft14 />
-]
-
-
-
 
     </>
   );

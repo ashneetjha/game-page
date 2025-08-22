@@ -201,9 +201,7 @@ const Draft14 = (props) => {
         </GradientButton>
 
         {/* Solved (same UI) */}
-        <GradientButton onClick={handleSolved}>
-          Solved
-        </GradientButton>
+        
       </div>
 
       <div className="relative flex items-center justify-center mt-30 w-[1240px] h-[2000px]"></div>
