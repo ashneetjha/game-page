@@ -56,24 +56,6 @@ const Draft14 = (props) => {
   };
 
   // Reusable gradient button so Submit/Solved look identical
-  const GradientButton = ({ children, onClick }) => (
-    <button
-      type="button"
-      onClick={onClick}
-      className="px-8 py-4 text-white font-bold text-lg rounded-3xl transition-all duration-300 hover:scale-105 active:scale-95"
-      style={{
-        background: "transparent",
-        borderRadius: "24px",
-        backdropFilter: "blur(4.14px)",
-        boxShadow: "0 4px 15px #FFCE84",
-        border: "2px solid transparent",
-        backgroundImage:
-          "linear-gradient(transparent, transparent) padding-box, linear-gradient(to right, #D27E00, #FFE0B1) border-box",
-      }}
-    >
-      {children}
-    </button>
-  );
 
   return (
     <div
@@ -195,10 +177,7 @@ const Draft14 = (props) => {
           }}
         />
 
-        {/* Submit (same UI) */}
-        <GradientButton onClick={() => console.log("Submit clicked")}>
-          Submit
-        </GradientButton>
+      
 
         {/* Solved (same UI) */}
         
