@@ -12,8 +12,7 @@ function App() {
   return (
     <>
       <Congratulations />
-      <Draft14 />
-      
+
 
 
 
